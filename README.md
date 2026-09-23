@@ -1,5 +1,9 @@
 # Software Types
 
+This is a complete taxonomy of every software type and category, organized across many axes.
+
+---
+
 ## Axis 1: Operating Systems & Runtime
 
 - Real-time operating systems (RTOS)
