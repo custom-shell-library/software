@@ -1,0 +1,1527 @@
+# Software Types
+
+## Axis 1: Operating Systems & Runtime
+
+- Real-time operating systems (RTOS)
+- FreeRTOS
+- Zephyr
+- VxWorks
+- QNX
+- RTEMS
+- NuttX
+- ThreadX
+- ChibiOS
+- Mbed OS
+- Linux (standard kernel)
+- Linux with RT patch (PREEMPT_RT)
+- Ubuntu
+- Debian
+- Yocto Linux
+- Buildroot Linux
+- Android
+- Windows
+- Bare-metal (no OS)
+- Microkernel
+- Monolithic kernel
+- Container runtime
+- WebAssembly runtime
+- FPGA soft-core runtime
+- GPU runtime
+
+## Axis 2: Firmware & Embedded Software
+
+- Bootloaders (U-Boot, GRUB, Barebox)
+- Board support packages (BSP)
+- Device trees
+- Hardware abstraction layers (HAL)
+- Motor controller firmware
+- ESC firmware (BLHeli, AM32)
+- Servo firmware
+- Encoder interface firmware
+- Sensor driver firmware
+- IMU firmware
+- Camera firmware
+- LiDAR firmware
+- CAN stack
+- EtherCAT stack
+- Modbus stack
+- USB stack
+- Ethernet stack
+- TCP/IP stack
+- Serial stack (UART, SPI, I2C)
+- Power management IC firmware
+- Battery management firmware
+- Display firmware
+- Audio codec firmware
+- Haptic driver firmware
+- FPGA bitstreams
+- CPLD logic
+- Secure boot firmware
+- Trusted platform module firmware
+- Firmware update mechanisms (OTA, DFU, JTAG, SWD)
+
+## Axis 3: Middleware & Communication
+
+- ROS 1 (legacy, end-of-life)
+- ROS 2 (Jazzy is current LTS, supported until May 2029)
+- DDS (Fast DDS, Cyclone DDS, RTI Connext)
+- Zenoh (Tier-1 ROS 2 middleware)
+- MAVLink
+- MAVROS
+- LCM (Lightweight Communications and Marshalling)
+- ZeroMQ
+- Nanomsg
+- NNG
+- MQTT
+- gRPC
+- REST
+- WebSocket
+- HTTP/HTTPS
+- TCP/IP
+- UDP
+- QUIC
+- DDS-RTPS
+- Shared memory IPC
+- Publish-subscribe
+- Request-reply
+- Service-oriented architecture
+- Microservices
+- Actor model
+- Stream processing
+- Kafka
+- RabbitMQ
+- Redis
+- NATS
+- Ray
+- Dask
+- Edge computing middleware
+- Cloud robotics middleware
+- Mesh networking middleware
+- Peer-to-peer middleware
+- Blockchain middleware
+
+## Axis 4: Low-Level Control
+
+- PID control
+- PD control
+- PI control
+- P control
+- Feedforward control
+- Feedback control
+- Cascade control
+- Adaptive control
+- Model reference adaptive control
+- Gain scheduling
+- Robust control (H-infinity, H2, mu-synthesis)
+- Sliding mode control
+- Backstepping control
+- Feedback linearization
+- Model predictive control (MPC)
+- Linear quadratic regulator (LQR)
+- Linear quadratic Gaussian (LQG)
+- Kalman filter control
+- Extended Kalman filter control
+- Unscented Kalman filter control
+- Particle filter control
+- State observer
+- Disturbance observer
+- Impedance control
+- Admittance control
+- Force control
+- Torque control
+- Current control
+- Position control
+- Velocity control
+- Trajectory generation
+- Trajectory optimization
+- Time-optimal control
+- Minimum jerk
+- Minimum snap
+- B-spline trajectories
+- Bezier curves
+- Polynomial trajectories
+- Spline interpolation
+- S-curve profiles
+- Trapezoidal profiles
+- Friction compensation
+- Backlash compensation
+- Gravity compensation
+- Inertia compensation
+- Coriolis compensation
+- Compliance control
+- Variable impedance control
+- Whole-body control
+- Operational space control
+- Task space control
+- Joint space control
+- Null space control
+- Redundancy resolution
+- Singularity avoidance
+- Collision avoidance
+- Self-collision avoidance
+- Safe control
+- Hybrid control
+- Switched control
+- Discrete control
+- Continuous control
+- Sampled-data control
+- Networked control
+- Distributed control
+- Decentralized control
+- Centralized control
+- Hierarchical control
+- Multi-rate control
+- Learning-based control
+- Reinforcement learning control
+- Imitation learning control
+- Neural network control
+- Fuzzy logic control
+- Neuro-fuzzy control
+- Behavior-based control
+- Subsumption architecture
+- Potential field control
+- Vector field control
+- Attitude control
+- Orbit control
+- Formation flying
+- Docking control
+
+## Axis 5: State Estimation & Localization
+
+- Kalman filter
+- Extended Kalman filter
+- Unscented Kalman filter
+- Iterated extended Kalman filter
+- Cubature Kalman filter
+- Ensemble Kalman filter
+- Information filter
+- Particle filter
+- Rao-Blackwellized particle filter
+- Sequential Monte Carlo
+- Markov localization
+- Grid-based localization
+- Monte Carlo localization
+- Adaptive Monte Carlo localization
+- Multi-hypothesis localization
+- Topological localization
+- Metric localization
+- Visual localization
+- Visual-inertial localization
+- LiDAR localization
+- Radar localization
+- Sonar localization
+- Acoustic localization
+- Magnetic localization
+- Barometric localization
+- GNSS localization (GPS, GLONASS, Galileo, BeiDou)
+- RTK
+- PPK
+- DGPS
+- SBAS
+- A-GPS
+- GNSS-INS fusion
+- GNSS-RTK-INS fusion
+- GNSS-visual fusion
+- GNSS-LiDAR fusion
+- Dead reckoning
+- Odometry
+- Visual odometry
+- Wheel odometry
+- Leg odometry
+- Inertial odometry
+- LiDAR odometry
+- Optical flow
+- Structure from motion
+- Bundle adjustment
+- SLAM
+- Visual SLAM
+- Visual-inertial SLAM
+- LiDAR SLAM
+- Multi-modal SLAM
+- Cooperative SLAM
+- Distributed SLAM
+- Collaborative SLAM
+- Cloud SLAM
+- Edge SLAM
+- Semantic SLAM
+- Dense SLAM
+- Sparse SLAM
+- Feature-based SLAM
+- Graph SLAM
+- Pose graph SLAM
+- Factor graph SLAM
+- EKF SLAM
+- FastSLAM
+- iSAM
+- iSAM2
+- GTSAM
+- Ceres Solver
+- g2o
+- Open3D
+- PCL
+- Sophus
+- Eigen
+- OpenCV
+- ORB-SLAM3
+- VINS-Fusion
+- Cartographer
+- LIO-SAM
+- FAST-LIO2
+- RTAB-Map
+- SLAM Toolbox
+- Hector SLAM
+- Gmapping
+- Karto SLAM
+
+## Axis 6: Perception
+
+- Image processing
+- Computer vision
+- Object detection
+- Object recognition
+- Object classification
+- Object segmentation
+- Semantic segmentation
+- Instance segmentation
+- Panoptic segmentation
+- Object tracking
+- Multi-object tracking
+- Feature detection
+- Feature matching
+- Feature tracking
+- Corner detection
+- Edge detection
+- Line detection
+- Circle detection
+- Shape detection
+- Contour detection
+- Template matching
+- OCR
+- Barcode detection
+- QR code detection
+- ArUco marker detection
+- AprilTag detection
+- Pose estimation
+- 6-DOF pose estimation
+- Human pose estimation
+- Hand pose estimation
+- Face detection
+- Face recognition
+- Facial landmark detection
+- Emotion recognition
+- Gesture recognition
+- Action recognition
+- Activity recognition
+- Gaze estimation
+- Eye tracking
+- Depth estimation
+- Stereo depth
+- Monocular depth
+- Structured light
+- Time-of-flight
+- LiDAR processing
+- Point cloud processing
+- Point cloud registration
+- Point cloud segmentation
+- Point cloud classification
+- Point cloud clustering
+- Point cloud filtering
+- Voxelization
+- Octree
+- KD-tree
+- RANSAC
+- ICP
+- NDT
+- GICP
+- Convolutional neural networks
+- YOLOv5
+- YOLOv8
+- YOLOv11
+- SSD
+- Faster R-CNN
+- Mask R-CNN
+- RetinaNet
+- EfficientDet
+- DETR
+- Vision Transformer
+- Swin Transformer
+- CLIP
+- DINO
+- SAM (Segment Anything)
+- SAM 2
+- Grounding DINO
+- OWL-ViT
+- Stable Diffusion
+- Generative adversarial networks
+- Variational autoencoders
+- Diffusion models
+- NeRF
+- Multi-view stereo
+- Photogrammetry
+- Structure from motion
+- Shape from shading
+- Shape from texture
+- Shape from focus
+- Shape from defocus
+- Shape from polarization
+- Shape from motion
+- Depth from stereo
+- Depth from motion
+- Depth from time-of-flight
+- Depth from structured light
+
+## Axis 7: Mapping & World Modeling
+
+- Occupancy grid mapping
+- Octomap
+- Voxel mapping
+- Elevation mapping
+- Height mapping
+- Terrain mapping
+- Costmap generation
+- Semantic mapping
+- Object-based mapping
+- Instance-based mapping
+- Scene graph generation
+- Knowledge graph
+- Ontology
+- Semantic web
+- RDF
+- OWL
+- SPARQL
+- Topological mapping
+- Metric mapping
+- Metric-topological mapping
+- Hybrid mapping
+- Hierarchical mapping
+- Multi-resolution mapping
+- Multi-scale mapping
+- Multi-modal mapping
+- Multi-sensor mapping
+- Multi-robot mapping
+- Collaborative mapping
+- Distributed mapping
+- Cloud mapping
+- Edge mapping
+- Incremental mapping
+- Online mapping
+- Offline mapping
+- Lifelong mapping
+- Persistent mapping
+- Dynamic mapping
+- Static mapping
+- Change detection
+- Map updating
+- Map merging
+- Map alignment
+- Map registration
+- Map compression
+- Map storage
+- Map retrieval
+- Map visualization
+- Map analysis
+- Map interpretation
+- Map reasoning
+- Map planning
+- Map navigation
+- Map exploration
+- Map learning
+- Map adaptation
+- Map maintenance
+
+## Axis 8: Planning
+
+- Path planning
+- Trajectory planning
+- Motion planning
+- Task planning
+- Mission planning
+- Behavior planning
+- Action planning
+- Manipulation planning
+- Grasp planning
+- Navigation planning
+- Coverage planning
+- Exploration planning
+- Search planning
+- Assembly planning
+- Construction planning
+- Logistics planning
+- Delivery planning
+- Routing planning
+- Scheduling planning
+- Resource planning
+- Energy planning
+- Risk planning
+- Safety planning
+- Contingency planning
+- Emergency planning
+- Recovery planning
+- Repair planning
+- Upgrade planning
+- Adaptation planning
+- Learning planning
+- Teaching planning
+- Training planning
+- Testing planning
+- Validation planning
+- Verification planning
+- Compliance planning
+- Strategic planning
+- Tactical planning
+- Operational planning
+- Long-term planning
+- Short-term planning
+- Real-time planning
+- Anytime planning
+- Incremental planning
+- Online planning
+- Offline planning
+- Deliberative planning
+- Reactive planning
+- Hybrid planning
+- Hierarchical planning
+- Multi-level planning
+- Multi-resolution planning
+- Multi-scale planning
+- Multi-objective planning
+- Multi-criteria planning
+- Multi-agent planning
+- Distributed planning
+- Centralized planning
+- Decentralized planning
+- Collaborative planning
+- Cooperative planning
+- Game-theoretic planning
+- Utility-based planning
+- Cost-based planning
+- Reward-based planning
+- Value-based planning
+- Policy-based planning
+- Model-based planning
+- Model-free planning
+- Sampling-based planning
+- RRT
+- RRT*
+- RRT-Connect
+- Informed RRT*
+- PRM
+- PRM*
+- Lazy PRM
+- EST
+- SBL
+- KPIECE
+- BKPIECE
+- LBKPIECE
+- BiEST
+- BiTRRT
+- FMT*
+- BIT*
+- AIT*
+- A*
+- D*
+- D* Lite
+- LPA*
+- Anytime A*
+- Anytime D*
+- Weighted A*
+- Best-first search
+- Breadth-first search
+- Depth-first search
+- Uniform-cost search
+- Dijkstra
+- Bellman-Ford
+- Floyd-Warshall
+- Viterbi
+- Hidden Markov Models
+- Partially observable Markov decision processes
+- Markov decision processes
+- Monte Carlo tree search
+- Alpha-beta pruning
+- Minimax
+- Expectimax
+- Iterative deepening
+- Transposition tables
+- Neural network guidance
+- Policy networks
+- Value networks
+- Q-networks
+- Actor-critic
+- PPO
+- TRPO
+- DDPG
+- TD3
+- SAC
+- DQN
+- Double DQN
+- Dueling DQN
+- Prioritized DQN
+- Rainbow
+- MuZero
+- AlphaZero
+
+## Axis 9: Navigation
+
+- Global navigation
+- Local navigation
+- Reactive navigation
+- Deliberative navigation
+- Hybrid navigation
+- Behavior-based navigation
+- Potential field navigation
+- Vector field histogram
+- Dynamic window approach
+- Trajectory rollout
+- Timed elastic band
+- Model predictive navigation
+- Sampling-based navigation
+- Search-based navigation
+- Optimization-based navigation
+- Learning-based navigation
+- End-to-end navigation
+- Imitation learning navigation
+- Reinforcement learning navigation
+- Sim-to-real navigation
+- Domain randomization navigation
+- Curriculum learning navigation
+- Transfer learning navigation
+- Multi-task navigation
+- Multi-goal navigation
+- Multi-agent navigation
+- Social navigation
+- Crowd navigation
+- Human-aware navigation
+- Proxemic navigation
+- Legible navigation
+- Predictable navigation
+- Explainable navigation
+- Safe navigation
+- Robust navigation
+- Resilient navigation
+- Fault-tolerant navigation
+- Adaptive navigation
+- Indoor navigation
+- Outdoor navigation
+- Urban navigation
+- Highway navigation
+- Off-road navigation
+- Rough terrain navigation
+- Uneven terrain navigation
+- Slippery terrain navigation
+- Deformable terrain navigation
+- Granular terrain navigation
+- Underwater navigation
+- Aerial navigation
+- Space navigation
+- Underground navigation
+- Cave navigation
+- Tunnel navigation
+- Pipe navigation
+
+## Axis 10: Manipulation
+
+- Forward kinematics
+- Inverse kinematics
+- Differential kinematics
+- Jacobian computation
+- Jacobian inverse
+- Jacobian transpose
+- Pseudoinverse
+- Damped least squares
+- Singularity avoidance
+- Redundancy resolution
+- Null space projection
+- Task priority
+- Whole-body control
+- Operational space control
+- Forward dynamics
+- Inverse dynamics
+- Lagrangian dynamics
+- Newton-Euler dynamics
+- Recursive Newton-Euler
+- Composite rigid body
+- Articulated body
+- Featherstone
+- Contact dynamics
+- Friction modeling
+- Coulomb friction
+- Viscous friction
+- Stribeck friction
+- LuGre friction
+- Dahl friction
+- Rolling friction
+- Grasp synthesis
+- Grasp planning
+- Force closure
+- Form closure
+- Caging
+- Stable grasping
+- Power grasping
+- Precision grasping
+- Pinch grasping
+- Enveloping grasping
+- Fingertip grasping
+- Palm grasping
+- Whole-hand grasping
+- Underactuated grasping
+- Adaptive grasping
+- Compliant grasping
+- Soft grasping
+- Rigid grasping
+- Hybrid grasping
+- Vacuum grasping
+- Magnetic grasping
+- Adhesive grasping
+- Electrostatic grasping
+- Needle grasping
+- Jaw grasping
+- Parallel grasping
+- Angular grasping
+- Three-finger grasping
+- Multi-finger grasping
+- Anthropomorphic grasping
+- Non-anthropomorphic grasping
+- Prosthetic grasping
+- Exoskeleton grasping
+- Teleoperation grasping
+- Shared grasping
+- Autonomous grasping
+- Semi-autonomous grasping
+- Supervised grasping
+- Learned grasping
+- Imitation grasping
+- Reinforcement grasping
+- Sim-to-real grasping
+- Domain randomized grasping
+- Curriculum grasping
+- Transfer grasping
+- Multi-task grasping
+- Multi-goal grasping
+- Multi-agent grasping
+- Social grasping
+- Human-aware grasping
+
+## Axis 11: Teleoperation
+
+- Direct teleoperation
+- Joint-space teleoperation
+- Cartesian teleoperation
+- End-effector teleoperation
+- Rate control
+- Position control
+- Velocity control
+- Force control
+- Torque control
+- Impedance control
+- Admittance control
+- Bilateral teleoperation
+- Unilateral teleoperation
+- Master-slave teleoperation
+- Leader-follower teleoperation
+- Exoskeleton teleoperation
+- Glove teleoperation
+- Haptic teleoperation
+- Vibrotactile teleoperation
+- Force feedback teleoperation
+- Tactile feedback teleoperation
+- Thermal feedback teleoperation
+- Multisensory teleoperation
+- VR teleoperation
+- AR teleoperation
+- XR teleoperation
+- Mixed reality teleoperation
+- Shared control
+- Variable autonomy
+- Adjustable autonomy
+- Adaptive autonomy
+- Dynamic autonomy
+- Sliding autonomy
+- Traded control
+- Blended control
+- Supervisory control
+- Predictive control
+- Model-mediated teleoperation
+- Time-delay teleoperation
+- Latency compensation
+- Wave variable
+- Passivity-based control
+- Scattering transformation
+- Smith predictor
+- Model predictive teleoperation
+- Kalman filter teleoperation
+- Observer-based teleoperation
+- Networked teleoperation
+- Cloud teleoperation
+- Edge teleoperation
+- 5G teleoperation
+- Satellite teleoperation
+- Deep-space teleoperation
+- Underwater teleoperation
+- Aerial teleoperation
+- Ground teleoperation
+- Space teleoperation
+- Surgical teleoperation
+- Industrial teleoperation
+- Construction teleoperation
+- Mining teleoperation
+- Agricultural teleoperation
+- Nuclear teleoperation
+- Chemical teleoperation
+- Biological teleoperation
+- Radiological teleoperation
+- Explosive teleoperation
+- Hazardous teleoperation
+- Remote teleoperation
+- Inaccessible teleoperation
+- Dangerous teleoperation
+- Dirty teleoperation
+- Dull teleoperation
+- Dear teleoperation
+- Distant teleoperation
+- Denied teleoperation
+- Degraded teleoperation
+- Disrupted teleoperation
+- Intermittent teleoperation
+- Limited teleoperation
+- Constrained teleoperation
+- Confined teleoperation
+- Cluttered teleoperation
+- Dynamic teleoperation
+- Uncertain teleoperation
+- Unstructured teleoperation
+
+## Axis 12: Human-Robot Interaction
+
+- Speech recognition
+- Natural language processing
+- Natural language understanding
+- Natural language generation
+- Dialogue management
+- Intent recognition
+- Entity recognition
+- Sentiment analysis
+- Emotion recognition
+- Affect detection
+- Social signal processing
+- Gesture recognition
+- Pose recognition
+- Gaze tracking
+- Eye tracking
+- Attention modeling
+- Engagement modeling
+- Trust modeling
+- Rapport modeling
+- Empathy modeling
+- Theory of mind
+- Mental state inference
+- Intention inference
+- Goal inference
+- Plan recognition
+- Activity recognition
+- Behavior recognition
+- Habit recognition
+- Preference learning
+- Personalization
+- Adaptation
+- Customization
+- User modeling
+- Student modeling
+- Patient modeling
+- Customer modeling
+- Human modeling
+- Crowd modeling
+- Group modeling
+- Team modeling
+- Organization modeling
+- Society modeling
+- Culture modeling
+- Language modeling
+- Multimodal interaction
+- Multimodal fusion
+- Multimodal grounding
+- Multimodal dialogue
+- Multimodal learning
+- Multimodal generation
+- Multimodal understanding
+- Multimodal reasoning
+- Multimodal planning
+- Multimodal control
+- Multimodal teleoperation
+- Multimodal feedback
+- Multimodal displays
+- Multimodal interfaces
+- Multimodal robots
+- Social robots
+- Companion robots
+- Service robots
+- Assistive robots
+- Rehabilitation robots
+- Educational robots
+- Entertainment robots
+- Therapeutic robots
+- Care robots
+- Eldercare robots
+- Childcare robots
+- Healthcare robots
+- Surgical robots
+- Diagnostic robots
+- Prosthetic robots
+- Orthotic robots
+- Exoskeleton robots
+- Wearable robots
+- Soft robots
+- Humanoid robots
+- Android robots
+- Geminoid robots
+- Actroid robots
+- Bionic robots
+- Biomimetic robots
+- Biohybrid robots
+- Bioinspired robots
+- Biologically inspired robots
+- Nature-inspired robots
+- Animal-inspired robots
+- Plant-inspired robots
+
+## Axis 13: Learning & AI
+
+- Supervised learning
+- Unsupervised learning
+- Semi-supervised learning
+- Self-supervised learning
+- Reinforcement learning
+- Imitation learning
+- Behavior cloning
+- Inverse reinforcement learning
+- Inverse optimal control
+- Apprenticeship learning
+- Learning from demonstration
+- Learning from observation
+- Learning from intervention
+- Learning from critique
+- Learning from preference
+- Learning from comparison
+- Learning from ranking
+- Learning from correction
+- Learning from failure
+- Learning from success
+- Learning from reward
+- Learning from curiosity
+- Learning from intrinsic motivation
+- Learning from extrinsic motivation
+- Learning from exploration
+- Learning from exploitation
+- Learning from experience
+- Learning from memory
+- Learning from replay
+- Learning from imagination
+- Learning from simulation
+- Learning from reality
+- Learning from simulation-to-reality
+- Learning from reality-to-simulation
+- Learning from domain adaptation
+- Learning from domain randomization
+- Learning from domain generalization
+- Learning from transfer
+- Learning from meta-learning
+- Learning from multi-task learning
+- Learning from multi-goal learning
+- Learning from multi-agent learning
+- Learning from multi-robot learning
+- Learning from swarm learning
+- Learning from federated learning
+- Learning from distributed learning
+- Learning from decentralized learning
+- Learning from centralized learning
+- Learning from collaborative learning
+- Learning from cooperative learning
+- Learning from competitive learning
+- Learning from adversarial learning
+- Learning from generative adversarial networks
+- Learning from variational autoencoders
+- Learning from normalizing flows
+- Learning from diffusion models
+- Learning from energy-based models
+- Learning from autoregressive models
+- Learning from flow-based models
+- Learning from score-based models
+- Learning from transformer models
+- Learning from attention mechanisms
+- Learning from self-attention
+- Learning from cross-attention
+- Learning from multi-head attention
+- Learning from sparse attention
+- Learning from linear attention
+- Learning from flash attention
+- ACT (Action Chunking Transformer)
+- Diffusion Policy
+- SmolVLA
+- Pi0
+- Pi0.5
+- NVIDIA Isaac GR00T
+- NVIDIA Cosmos
+- MolmoAct
+- LeRobot (Hugging Face)
+- LIBERO simulation
+- Meta-World simulation
+
+## Axis 14: Simulation
+
+- Physics simulation
+- Rigid body dynamics
+- Soft body dynamics
+- Fluid dynamics
+- Computational fluid dynamics
+- Particle dynamics
+- Granular dynamics
+- Contact dynamics
+- Collision detection
+- Collision response
+- Friction simulation
+- Wear simulation
+- Fatigue simulation
+- Thermal simulation
+- Electromagnetic simulation
+- Acoustic simulation
+- Optical simulation
+- Sensor simulation
+- Camera simulation
+- LiDAR simulation
+- Radar simulation
+- Sonar simulation
+- IMU simulation
+- GPS simulation
+- Force sensor simulation
+- Tactile sensor simulation
+- Actuator simulation
+- Motor simulation
+- Hydraulic simulation
+- Pneumatic simulation
+- Electrical simulation
+- Electronic simulation
+- Power simulation
+- Battery simulation
+- Communication simulation
+- Network simulation
+- Middleware simulation
+- ROS simulation
+- Gazebo (Ignition)
+- Gazebo Harmonic
+- Isaac Sim
+- Isaac Lab
+- MuJoCo
+- PyBullet
+- Drake
+- Webots
+- CoppeliaSim
+- AirSim
+- CARLA
+- SUMO
+- Simulink
+- Adams
+- Chrono
+- Bullet
+- ODE (Open Dynamics Engine)
+- Simbody
+- DART
+- PhysX
+- Havok
+- Unity Physics
+- Unreal Physics
+- Domain randomization
+- Sim-to-real transfer
+- Zero-shot sim-to-real
+
+## Axis 15: Data Management
+
+- Data acquisition
+- Data collection
+- Data capture
+- Data recording
+- Data logging
+- Data storage
+- Data retrieval
+- Data querying
+- Data indexing
+- Data cataloging
+- Data labeling
+- Data annotation
+- Data tagging
+- Data classification
+- Data clustering
+- Data segmentation
+- Data cleaning
+- Data preprocessing
+- Data postprocessing
+- Data transformation
+- Data normalization
+- Data standardization
+- Data augmentation
+- Data synthesis
+- Data generation
+- Data simulation
+- Data compression
+- Data decompression
+- Data encryption
+- Data decryption
+- Data hashing
+- Data signing
+- Data verification
+- Data validation
+- Data curation
+- Data governance
+- Data stewardship
+- Data ownership
+- Data privacy
+- Data security
+- Data integrity
+- Data availability
+- Data confidentiality
+- Data authenticity
+- Data non-repudiation
+- Data provenance
+- Data lineage
+- Data versioning
+- Data archiving
+- Data backup
+- Data recovery
+- Data migration
+- Data integration
+- Data federation
+- Data virtualization
+- Data warehousing
+- Data lake
+- Data lakehouse
+- Data mesh
+- Data fabric
+- Data pipeline
+- Data workflow
+- Data orchestration
+- Data scheduling
+- Data monitoring
+- Data observability
+- Data analytics
+- Data mining
+- Data science
+- Data engineering
+- Data architecture
+- Data modeling
+- Data ontology
+- Data taxonomy
+- Data schema
+- Data format (MCAP, rosbag2, HDF5, Parquet, SQLite)
+- Data protocol
+- Data standard
+- Data specification
+- Data interface
+- Data API
+- Data SDK
+- Data CLI
+- Data GUI
+- Data dashboard
+- Data report
+- Data visualization
+
+## Axis 16: Visualization & Debugging
+
+- RViz
+- RViz2
+- Foxglove Studio
+- PlotJuggler
+- Lichtblick
+- rqt (graph, plot, console, reconfigure, image_view, bag, tf_tree, robot_monitor, publisher, service_caller, topic, msg, srv, action, shell, launch, logger_level, GUI, plugin)
+- rosbag
+- rosbag2
+- MCAP
+- LCM log
+- SQLite
+- HDF5
+- Parquet
+- Arrow
+- Pandas
+- NumPy
+- SciPy
+- Matplotlib
+- Seaborn
+- Plotly
+- Bokeh
+- Dash
+- Streamlit
+- Gradio
+- TensorBoard
+- Weights & Biases
+- MLflow
+- Comet
+- Neptune
+- ClearML
+- DVC
+
+## Axis 17: Development & DevOps
+
+- Version control
+- Git
+- GitHub
+- GitLab
+- Bitbucket
+- Mercurial
+- Subversion
+- Perforce
+- Azure DevOps
+- Continuous integration
+- Continuous delivery
+- Continuous deployment
+- Continuous testing
+- Continuous monitoring
+- Containerization
+- Docker
+- Podman
+- containerd
+- CRI-O
+- LXC
+- LXD
+- Kubernetes
+- K3s
+- K0s
+- OpenShift
+- Rancher
+- Nomad
+- Mesos
+- Docker Swarm
+- Marathon
+- Knative
+- OpenFaaS
+- Kubeless
+- Fission
+- Nuclio
+- OpenWhisk
+- Cloud Functions
+- AWS Lambda
+- Azure Functions
+- Google Cloud Functions
+- IBM Cloud Functions
+- Oracle Cloud Functions
+
+## Axis 18: Safety & Security
+
+- Functional safety
+- Safety integrity level (SIL)
+- Automotive safety integrity level (ASIL)
+- Performance level (PL)
+- Safety requirements specification
+- Safety lifecycle
+- Hazard analysis
+- Risk assessment
+- Risk analysis
+- Risk evaluation
+- Risk mitigation
+- Risk reduction
+- Risk avoidance
+- Risk transfer
+- Risk acceptance
+- Risk tolerance
+- Risk appetite
+- Risk capacity
+- Risk exposure
+- Risk profile
+- Risk register
+- Risk matrix
+- Risk map
+- Risk heat map
+- Risk dashboard
+- Risk report
+- Risk audit
+- Risk review
+- Risk monitoring
+- Risk control
+- Risk treatment
+- Risk communication
+- Risk consultation
+- Risk governance
+- Risk management
+- HARA
+- TARA
+- FMEA
+- FMECA
+- FTA
+- ETA
+- CCA
+- STPA
+- STAMP
+- FRAM
+- CREAM
+- HEART
+- THERP
+- ASEP
+- SPAR-H
+- NARA
+- ATHEANA
+- MERMOS
+- PHRA
+- QRA
+- PRA
+- PSA
+- LOPA
+- SIL verification
+- Safety instrumented system
+- Safety instrumented function
+- Emergency shutdown
+- Emergency stop
+- Safety PLC
+- Safety relay
+- Safety contactor
+- Safety switch
+- Safety sensor
+- Safety light curtain
+- Safety laser scanner
+- Safety mat
+- Safety edge
+- Safety bumper
+- Safety rope
+- Safety gate
+- Safety door
+- Safety interlock
+- Safety lockout
+- Safety tagout
+- Lockout/tagout
+- Permit to work
+- Confined space entry
+- Hot work permit
+- Cold work permit
+- Electrical safety
+- Mechanical safety
+- Chemical safety
+- Biological safety
+- Radiological safety
+- Nuclear safety
+- Fire safety
+- Explosion safety
+- Pressure safety
+- Vacuum safety
+- Cryogenic safety
+- High temperature safety
+- Low temperature safety
+- Noise safety
+- Vibration safety
+- Radiation safety
+- Laser safety
+- Microwave safety
+- RF safety
+- EMF safety
+- ESD safety
+- Cybersecurity
+- Information security
+- Network security
+- Application security
+- Cloud security
+- Edge security
+- IoT security
+- OT security
+- ICS security
+- SCADA security
+- PLC security
+- DCS security
+- SIS security
+- Physical security
+- Access control
+- Authentication
+- Authorization
+- Accounting
+- Auditing
+- Encryption
+- Decryption
+- Hashing
+- Salting
+- Key management
+- Certificate management
+- PKI
+- TLS
+- SSL
+- SSH
+- IPSec
+- VPN
+- Firewall
+- IDS
+- IPS
+- SIEM
+- SOAR
+- XDR
+- EDR
+- MDR
+- NDR
+- UEBA
+- DLP
+- CASB
+- SASE
+- ZTNA
+- Zero trust
+- Defense in depth
+- Least privilege
+- Separation of duties
+- Dual control
+- Multi-factor authentication
+- Biometric authentication
+- Behavioral authentication
+- Continuous authentication
+- Adaptive authentication
+- Risk-based authentication
+- Single sign-on
+- Federated identity
+- Decentralized identity
+- Self-sovereign identity
+- Verifiable credentials
+- Zero-knowledge proofs
+- Homomorphic encryption
+- Secure multi-party computation
+- Differential privacy
+- Federated learning
+- Split learning
+- Swarm learning
+- Confidential computing
+- Trusted execution environment
+- Secure enclave
+- Hardware security module
+- Trusted platform module
+- Root of trust
+- Chain of trust
+- Secure boot
+- Measured boot
+- Attested boot
+- Verified boot
+- Trusted boot
+- Boot integrity
+- Runtime integrity
+- Code integrity
+- Data integrity
+- Memory integrity
+- Control flow integrity
+- Data flow integrity
+- Information flow integrity
+
+## Axis 19: Fleet & Operations
+
+- Fleet management
+- Fleet monitoring
+- Fleet tracking
+- Fleet scheduling
+- Fleet dispatch
+- Fleet routing
+- Fleet optimization
+- Fleet coordination
+- Fleet collaboration
+- Fleet cooperation
+- Fleet negotiation
+- Fleet auction
+- Fleet bidding
+- Fleet allocation
+- Fleet assignment
+- Fleet balancing
+- Fleet rebalancing
+- Fleet charging
+- Fleet maintenance
+- Fleet repair
+- Fleet upgrading
+- Fleet updating
+- Fleet patching
+- Fleet provisioning
+- Fleet configuration
+- Fleet deployment
+- Fleet orchestration
+- Fleet automation
+- Fleet autonomy
+- Fleet teleoperation
+- Fleet supervision
+- Fleet intervention
+- Fleet takeover
+- Fleet handover
+- Fleet recovery
+- Fleet resilience
+- Fleet redundancy
+- Fleet diversity
+- Fleet scalability
+- Fleet elasticity
+- Fleet flexibility
+- Fleet agility
+- Fleet robustness
+- Fleet reliability
+- Fleet availability
+- Fleet maintainability
+- Fleet testability
+- Fleet deployability
+- Fleet portability
+- Fleet interoperability
+- Fleet compatibility
+- Fleet security
+- Fleet privacy
+- Fleet safety
+- Fleet performance
+- Fleet efficiency
+- Fleet effectiveness
+- Fleet productivity
+- Fleet profitability
+- Fleet sustainability
+- Fleet circularity
+- Fleet regeneration
+- Fleet restoration
+- Fleet rehabilitation
+- Fleet remediation
+- Fleet rejuvenation
+- Fleet revitalization
+- Fleet renewal
+- Fleet refresh
+- Fleet reboot
+- Fleet reset
+- Fleet restart
+- Fleet recovery
+- Fleet rescue
+- Fleet salvage
+- Fleet recycling
+- Fleet upcycling
+- Fleet downcycling
+- Fleet reuse
+- Fleet repurpose
+- Fleet remanufacture
+- Fleet refurbish
+
+## Axis 20: Cloud & Edge
+
+- Cloud computing
+- Edge computing
+- Fog computing
+- Mist computing
+- Dew computing
+- Cloudlet
+- Microcloud
+- Nanocloud
+- Serverless computing
+- Function as a service
+- Platform as a service
+- Infrastructure as a service
+- Software as a service
+- Robot as a service
+- Autonomy as a service
+- Teleoperation as a service
+- Simulation as a service
+- Data as a service
+- Model as a service
+- AI as a service
+- ML as a service
+- DL as a service
+- RL as a service
+- SLAM as a service
+- Navigation as a service
+- Perception as a service
+- Planning as a service
+- Control as a service
+- Safety as a service
+- Security as a service
+- Privacy as a service
+- Compliance as a service
+- Governance as a service
+- Fleet as a service
+- Swarm as a service
+- Cloud robotics
+- Edge robotics
+- Fog robotics
+- Mist robotics
+- Dew robotics
+- Cloudlet robotics
